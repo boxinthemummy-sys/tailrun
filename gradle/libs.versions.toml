@@ -1,0 +1,16 @@
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+pluginYml = { id = "de.eldoria.plugin-yml.bukkit", version.ref = "plugin_yml" }
+runPaper = { id = "xyz.jpenilla.run-paper", version.ref = "run_paper" }
+
+[libraries]
+paper = { group = "io.papermc.paper", name = "paper-api", version.ref = "paper" }
+cloud = { group = "org.incendo", name = "cloud-paper", version.ref = "cloud" }
+
+[versions]
+minecraft = "1.21.11"
+paper = "1.21.11-R0.1-SNAPSHOT"
+kotlin = "2.3.10"
+plugin_yml = "0.8.0"
+run_paper = "3.0.2"
+cloud = "2.0.0-beta.14"
